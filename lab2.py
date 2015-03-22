@@ -1,4 +1,4 @@
-__author__ = 'anton'
+__author__ = 'anton1'
 import pandas as pd
 import os
 import urllib2
@@ -28,9 +28,6 @@ def download_files(path):
         out.close()
         print ("VHI"+str(id)+" is downloaded...")
 
-
-
-#download_files(path)
 
 
 class PlotData(server.App):
@@ -92,8 +89,6 @@ class PlotData(server.App):
                 "variable_name": 'year',
                 "value": 1996,
                 "action_id": "plot"}]
-
-
     tabs = ["Plot", "Table"]
 
     outputs = [{"output_type": "plot",
