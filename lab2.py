@@ -1,4 +1,4 @@
-__author__ = 'roma'
+__author__ = 'anton'
 import pandas as pd
 import os
 import urllib2
@@ -42,7 +42,7 @@ class PlotData(server.App):
                            {"label": "TCI", "value": Param_list[1]},
                            {"label": "VHI", "value": Param_list[2]}],
                "variable_name": 'sort',
-               "action_id": "update_data"},
+               "action_id": "plot"},
 
               {"input_type": 'dropdown',
                "label": 'Choose province',
